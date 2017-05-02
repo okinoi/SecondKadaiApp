@@ -14,6 +14,7 @@
 		19BC1C0A1EA616B10042FD82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BC1C081EA616B10042FD82 /* LaunchScreen.storyboard */; };
 		19BC1C151EA616B20042FD82 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC1C141EA616B20042FD82 /* SecondKadaiAppTests.swift */; };
 		19BC1C201EA616B20042FD82 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC1C1F1EA616B20042FD82 /* SecondKadaiAppUITests.swift */; };
+		19BC1C2E1EA6218C0042FD82 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC1C2D1EA6218C0042FD82 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		19BC1C1B1EA616B20042FD82 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BC1C1F1EA616B20042FD82 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		19BC1C211EA616B20042FD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BC1C2D1EA6218C0042FD82 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		19BC1BFE1EA616B10042FD82 /* SecondKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
+				19BC1C2D1EA6218C0042FD82 /* ResultViewController.swift */,
 				19BC1BFF1EA616B10042FD82 /* AppDelegate.swift */,
 				19BC1C011EA616B10042FD82 /* ViewController.swift */,
 				19BC1C031EA616B10042FD82 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				19BC1C021EA616B10042FD82 /* ViewController.swift in Sources */,
 				19BC1C001EA616B10042FD82 /* AppDelegate.swift in Sources */,
+				19BC1C2E1EA6218C0042FD82 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGDW5FKM77;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroyuki.okinoi.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EGDW5FKM77;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroyuki.okinoi.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
